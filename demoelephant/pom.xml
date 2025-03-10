@@ -53,22 +53,23 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
 
-			<!-- Add this plugin to generate test reports -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M7</version>
-				<configuration>
-					<reportsDirectory>target/surefire-reports</reportsDirectory>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+        <!-- Surefire Plugin for Unit Tests -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M7</version>
+            <configuration>
+                <useSystemClassLoader>true</useSystemClassLoader>
+                <reportsDirectory>target/surefire-reports</reportsDirectory>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
