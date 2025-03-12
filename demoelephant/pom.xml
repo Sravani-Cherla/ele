@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.elephant</groupId>
 	<artifactId>demoelephant</artifactId>
-	<version>v1.0</version>
+	<version>1.0.1</version>
 	<name>demoelephant</name>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
@@ -52,15 +52,15 @@
 
 	</dependencies>
 	<distributionManagement>
-    <repository>
-        <id>github</id>
-        <url>https://maven.pkg.github.com/Sravani-Cherla/ele</url>
-    </repository>
-    <snapshotRepository>
-        <id>github</id>
-        <url>https://maven.pkg.github.com/Sravani-Cherla/ele</url>
-    </snapshotRepository>
-</distributionManagement>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/Sravani-Cherla/ele</url>
+		</repository>
+		<snapshotRepository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/Sravani-Cherla/ele</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
