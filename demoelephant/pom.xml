@@ -13,7 +13,7 @@
 	<artifactId>demoelephant</artifactId>
 	<version>1.0.1</version>
 	<name>demoelephant</name>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 	<url />
 	<licenses>
